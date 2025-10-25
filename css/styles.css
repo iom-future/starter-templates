@@ -263,13 +263,38 @@ hr {
      🎨 COLOR SYSTEM
      ============================================ */
   
-  /* --- Primary Brand Colors (Orange) --- */
+  /* --- Primary Brand Colors (Orange) - REPLACE WITH YOUR BRAND COLORS --- */
   --color-primary: #FF6B35;           /* Main brand orange - buttons, links, CTAs */
   --color-primary-light: #FF8A5C;     /* Hover states, highlights */
   --color-primary-lighter: #FFB499;   /* Soft backgrounds, badges */
   --color-primary-lightest: #FFE5DC;  /* Very subtle backgrounds, alerts */
   --color-primary-dark: #E85A28;      /* Active states, pressed buttons */
   --color-primary-darker: #CC4A1F;    /* Dark mode primary, deep accents */
+  
+  /* --- Secondary Brand Colors (Blue) - REPLACE WITH YOUR BRAND COLORS --- */
+  --color-secondary: #3B82F6;         /* Secondary brand color - alternative CTAs */
+  --color-secondary-light: #60A5FA;   /* Hover states for secondary elements */
+  --color-secondary-lighter: #93C5FD; /* Soft backgrounds, info badges */
+  --color-secondary-lightest: #DBEAFE;/* Very subtle backgrounds, info alerts */
+  --color-secondary-dark: #2563EB;    /* Active states for secondary buttons */
+  --color-secondary-darker: #1D4ED8;  /* Dark mode secondary, deep accents */
+  
+  /* --- Semantic Colors (Status & Feedback) --- */
+  --color-success: #10B981;           /* Success messages, completed states */
+  --color-success-light: #34D399;     /* Success hover states */
+  --color-success-bg: #D1FAE5;        /* Success backgrounds */
+  
+  --color-warning: #F59E0B;           /* Warning messages, caution states */
+  --color-warning-light: #FBBF24;     /* Warning hover states */
+  --color-warning-bg: #FEF3C7;        /* Warning backgrounds */
+  
+  --color-error: #EF4444;             /* Error messages, destructive actions */
+  --color-error-light: #F87171;       /* Error hover states */
+  --color-error-bg: #FEE2E2;          /* Error backgrounds */
+  
+  --color-info: #3B82F6;              /* Info messages, helpful hints */
+  --color-info-light: #60A5FA;        /* Info hover states */
+  --color-info-bg: #DBEAFE;           /* Info backgrounds */
   
   /* --- Neutral Colors (Grays) --- */
   --color-neutral-50: #FAFAFA;        /* Lightest background, card surfaces */
@@ -283,24 +308,11 @@ hr {
   --color-neutral-800: #262626;       /* Near black, dark mode backgrounds */
   --color-neutral-900: #171717;       /* Pure dark, footer backgrounds */
   
-  /* --- Semantic Colors (Feedback & Status) --- */
-  --color-success: #10B981;           /* Streak complete, goal achieved */
-  --color-success-light: #D1FAE5;     /* Success backgrounds */
-  --color-warning: #F59E0B;           /* Reminder, caution states */
-  --color-warning-light: #FEF3C7;     /* Warning backgrounds */
-  --color-error: #EF4444;             /* Failed streak, form errors */
-  --color-error-light: #FEE2E2;       /* Error backgrounds */
-  --color-info: #3B82F6;              /* Tips, informational messages */
-  --color-info-light: #DBEAFE;        /* Info backgrounds */
-  
-  /* --- Streak & Gamification Colors --- */
-  --color-streak-fire: #FF6B35;       /* Active streak indicator (uses primary) */
-  --color-streak-gold: #FBBF24;       /* Milestone achievements (7, 30, 100 days) */
-  --color-streak-platinum: #94A3B8;   /* Elite streaks (365+ days) */
-  
   /* --- Gradients --- */
   --gradient-primary: linear-gradient(135deg, #FF6B35 0%, #FF8A5C 100%);
   --gradient-primary-soft: linear-gradient(135deg, #FFE5DC 0%, #FFB499 100%);
+  --gradient-secondary: linear-gradient(135deg, #3B82F6 0%, #60A5FA 100%);
+  --gradient-secondary-soft: linear-gradient(135deg, #DBEAFE 0%, #93C5FD 100%);
   --gradient-hero: linear-gradient(135deg, #FF6B35 0%, #F59E0B 100%);
   --gradient-card: linear-gradient(180deg, #FFFFFF 0%, #FAFAFA 100%);
   --gradient-dark: linear-gradient(135deg, #262626 0%, #171717 100%);

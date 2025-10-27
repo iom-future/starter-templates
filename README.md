@@ -54,7 +54,7 @@ A production-ready HTML/CSS starter template with comprehensive CSS variables, r
 
 ### 1. Clone or Download
 ```bash
-git clone https://github.com/yourusername/starter-template.git your-project
+git clone https://github.com/iom-future/starter-template.git your-project
 cd your-project
 ```
 
